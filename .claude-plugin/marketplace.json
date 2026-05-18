@@ -1,0 +1,16 @@
+{
+  "name": "perplexity",
+  "owner": {
+    "name": "Perplexity"
+  },
+  "description": "Claude Code marketplace federating every @amlplugins/perplexity-* plugin under a single marketplace source.",
+  "plugins": [
+    {
+      "name": "perplexity-search",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/perplexity-search.git"
+      }
+    }
+  ]
+}
